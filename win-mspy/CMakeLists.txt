@@ -4,8 +4,11 @@ project(im-select-mspy)
 
 
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(EXPORT_COMPILE_COMMANDS ON)
 
 
 add_executable(im-select-mspy main.cc)
+target_compile_options(im-select-mspy PRIVATE /utf-8)
 target_link_libraries(im-select-mspy comsuppw.lib)
 
