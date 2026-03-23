@@ -98,14 +98,14 @@ Put `gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell 
 
 > 注意：git-bash 并不是必须的，只有你在 VSCodeVim 的配置过程中，不知道当前的输入法的key，你才需要这样去获取输入法的key。
 
-### 获取当前输入法的key
+### 获取当前输入法的key和状态
 ```shell
 /path/to/im-select.exe
 ```
 
-### 切换输入法
+### 切换输入法及状态
 ```shell
-/path/to/im-select.exe locale
+/path/to/im-select.exe locale:status
 ```
 
 > 注意：Windows系统的路径和Linux会有些不一样，类似这样: C:\Users\path\to\file

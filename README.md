@@ -146,16 +146,16 @@ The im-select.exe is command line program, but it can't work in cmd or powershel
 
 ## Run tests
 
-### To get current keyboard locale
+### To get current keyboard locale and status
 
 ```shell
 /path/to/im-select.exe
 ```
 
-### To switch current keyboard locale
+### To switch current keyboard locale and status
 
 ```shell
-/path/to/im-select.exe locale
+/path/to/im-select.exe locale:status
 ```
 
 > Note: The path in windows is like: C:\Users\path\to\file
